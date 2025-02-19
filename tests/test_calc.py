@@ -9,6 +9,7 @@ sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')
 from calc import add
 from calc import sub
 from calc import mulmul
+from calc import div
 
 
 def test_add():
@@ -22,5 +23,8 @@ def test_sub():
 
 def test_mulmul():
     assert mulmul(2,2,3) == 11
+
+def test_div():
+    assert div(3,3) == 1
 
 
