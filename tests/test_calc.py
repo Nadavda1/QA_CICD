@@ -22,7 +22,7 @@ def test_sub():
     assert sub(2,2) == 0
 
 def test_mulmul():
-    assert mulmul(2,2,3) == 11
+    assert mulmul(2,2,3) == 12
 
 def test_div():
     assert div(3,3) == 1
